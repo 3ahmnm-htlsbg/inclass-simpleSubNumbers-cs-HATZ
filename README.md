@@ -1,28 +1,30 @@
 # Unity2019114f1-2D-Template
 
 ### Project description: 
-Introduction/Project summary 
+Making oour own GUI using Unity and C#.
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+- MacOS Catalina 10.15.1
+- Unity 2019.1.14f1
+- Visual Studio Code 1.40.2
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL (refRes: 1280x720)
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+TODO
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+TODO
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+- Template for README (3ahmnm-htlsbg/Unity2019114f1-2D-Template)
 
 ### Project state: 
-incl. progress in percent
+- State in Excell Table
 
 ### Limitations: 
 
 ### Lessons Learned: 
 
-Copyright by you :)
+Copyright by HATZ
