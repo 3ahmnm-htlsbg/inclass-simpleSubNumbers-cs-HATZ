@@ -24,7 +24,9 @@ TODO
 - State in Excell Table
 
 ### Limitations: 
+TODO
 
 ### Lessons Learned: 
+- Learned how to generate buttons and how to start when making a GUI.
 
 Copyright by HATZ
