@@ -1,7 +1,7 @@
 # Unity2019114f1-2D-Template
 
 ### Project description: 
-Making oour own GUI using Unity and C#.
+Making our own GUI using Unity and C#. And then out of that designing a calculator for simple subtractions.
 
 ### Development platform: 
 - MacOS Catalina 10.15.1
