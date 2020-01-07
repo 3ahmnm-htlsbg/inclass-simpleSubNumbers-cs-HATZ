@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 606908821}
   - component: {fileID: 606908820}
   m_Layer: 5
-  m_Name: Sub Numbers (1)
+  m_Name: Reset_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +678,7 @@ GameObject:
   - component: {fileID: 671424307}
   - component: {fileID: 671424306}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Equal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 1662074269}
   - component: {fileID: 1662074268}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Minus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 1695972763}
   - component: {fileID: 1695972762}
   m_Layer: 5
-  m_Name: Text (2)
+  m_Name: Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1428,7 +1428,7 @@ GameObject:
   - component: {fileID: 1942761688}
   - component: {fileID: 1942761687}
   m_Layer: 5
-  m_Name: Sub Numbers
+  m_Name: SubNumbers_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1615,3 +1615,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022330420}
   m_CullTransparentMesh: 0
+--- !u!1 &2143912214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2143912216}
+  - component: {fileID: 2143912215}
+  m_Layer: 0
+  m_Name: ComputeNumbers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2143912215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143912214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65749016a00c949faaa228bd925227bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  result: {fileID: 1695972762}
+  varA: {fileID: 1942100019}
+  varB: {fileID: 715761946}
+  Reset_Btn: {fileID: 606908820}
+  SubNumbers_Btn: {fileID: 1942761687}
+--- !u!4 &2143912216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143912214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.020532388, y: 0.14374508, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
