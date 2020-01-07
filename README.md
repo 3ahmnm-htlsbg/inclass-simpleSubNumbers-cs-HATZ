@@ -28,5 +28,6 @@ TODO
 
 ### Lessons Learned: 
 - Learned how to generate buttons and how to start when making a GUI.
+- Learned how to make a good script.
 
 Copyright by HATZ
