@@ -27,7 +27,7 @@ public class ComputeNumbers : MonoBehaviour
 
     }
 
-    private int SubNumbers()
+    public int SubNumbers()
     {
         int a = int.Parse(varA.text);
         int b = int.Parse(varB.text);
